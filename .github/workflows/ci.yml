@@ -35,4 +35,4 @@ jobs:
         with: {toolchain: '${{matrix.rust}}', profile: minimal, override: true}
       - name: Build and test all crates
         run: |
-          cargo test --features hdf5-sys/conda
+          cargo test --features hdf5-sys/conda --workspace --exclude hdf5-derive
