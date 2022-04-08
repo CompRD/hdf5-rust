@@ -8,6 +8,7 @@
 - Support field renaming via `#[hdf5(rename = "new_name")]` helper attribute.
 - Add a `ByteReader` which implements `std::io::{Read, Seek}` for 1D `u8`
   datasets. Usage via `Dataset::as_byte_reader()`.
+- `H5Type` for `Complex` struct from `num_complex`
 
 ### Changed
 
