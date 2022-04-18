@@ -17,6 +17,7 @@
 
 - Fixed a bug where `H5Pget_fapl_direct` was only included when HDF5 was compiled
   with feature `have-parallel` instead of `have-direct`.
+- Fixed compression filter not giving an error on non-chunked datasets.
 
 ## 0.8.1
 
